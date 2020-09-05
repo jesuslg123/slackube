@@ -1,0 +1,28 @@
+mqtt:
+  host: "mqtt://localhost"
+  port: 1883
+  topic: "zigbee2mqtt/Cubo"
+slack:
+  token: "xoxp-5559379127-135588381968"
+status:
+  side_0:
+    text: ""
+    emoji: ""
+  side_1:
+    text: "In a meeting"
+    emoji: ":virtual-meeting:"
+  side_2:
+    text: "Ñam Ñam"
+    emoji: ":shallow_pan_of_food:"
+  side_3:
+    text: "Taking a break"
+    emoji: ":clock2:"
+  side_4:
+    text: "Sick"
+    emoji: ":mask:"
+  side_5:
+    text: ""
+    emoji: ":beach_with_umbrella:"
+  shake:
+    text: ""
+    emoji: ""
