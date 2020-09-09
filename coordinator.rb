@@ -10,8 +10,13 @@ require_relative 'libs/MessageProcess.rb'
 @slackAPI = SlackAPI.new(@config.token)
 @client = MQTT::Client.connect(@config.mqtt_host, @config.mqtt_port)
 
-
-@client.get(@config.mqtt_topic) do |topic,message|
+def incoming_message(topic, message)
     status = @message_process.message(topic, message)      
     @slackAPI.setStatus(status["text"], status["emoji"]) unless status.nil?
+end
+
+@client.get(@config.mqtt_topic) do |topic,message|
+    Thread.new {
+        incoming_message(topic, message)
+    }
 end
