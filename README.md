@@ -4,7 +4,7 @@ Slackube is a project to update Slack status using the Xiaomi Aqara Magic Cube.
 
 Slackube it allows you to customise which status do you want to show depending on the side of the cube you select.
 
-![Slackube](https://github.com/jesuslg123/slackube/blob/master/slackube_demo.gif)
+![Slackube](https://github.com/jesuslg123/slackube/blob/master/images/slackube_demo.gif)
 
 ## Features
 
@@ -22,6 +22,9 @@ Slackube it allows you to customise which status do you want to show depending o
 - Mosquitto as MQTT broker
 - Coordinator app, a simple Ruby app I built to connect the whole flow with Slack API.
 
+## Schema
+
+![Schema](https://github.com/jesuslg123/slackube/blob/master/images/schema.png)
 
 ## Zigbee2mqtt
 
