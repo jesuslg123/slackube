@@ -14,7 +14,7 @@ Slackube it allows you to customise which status do you want to show depending o
 ## Requirements
 
 - [Aqara Magic Cube](https://www.aqara.com/us/cube.html)
-- Zigbee [CC2531 usb sniffer](https://www.ti.com/product/CC2531) and its debugger to [load the firmware](https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531.html)
+- Zigbee [CC2531 usb sniffer](https://www.ti.com/product/CC2531) and its debugger to [load the firmware](https://www.zigbee2mqtt.io/information/flashing_the_cc2531.html)
 - Slack App with scope `users.profile:write`
     - Scope: `users.profile:write`
     - Generate a OAuth token
